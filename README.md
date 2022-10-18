@@ -4,5 +4,5 @@
 
 <h3>I create this program at free time.</h3>
 
-<img width="1440" alt="Screen Shot 2022-10-19 at 0 47 34" src="https://user-images.githubusercontent.com/103437238/196480070-ff9c7065-3a7e-41ee-88ea-a0dcc912f329.png">
+<img width="1440" alt="Screen Shot 2022-10-19 at 0 51 35" src="https://user-images.githubusercontent.com/103437238/196480770-3818dbef-1a2d-4813-a894-81eaa0d9dcde.png">
 

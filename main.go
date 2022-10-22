@@ -2,7 +2,10 @@ package main
 
 import (
 	"fmt"
+	"log"
 	"math/rand"
+	"os"
+	"strconv"
 	"time"
 )
 
@@ -34,8 +37,14 @@ func estimate_pi(n int) (float64, int64) {
 }
 
 func main() {
-  var i int
-  fmt.Scan(&i)
+  if len(os.Args) != 2 {
+    log.Printf("please input number")
+    os.Exit(1)
+  }
+  i, err := strconv.Atoi(os.Args[1])
+  if err != nil {
+    log.Printf("failed to atoi: %v", err)
+  }
   ans, diff := estimate_pi(i)
   fmt.Println(ans)
   fmt.Printf("time taken %ds", diff)
